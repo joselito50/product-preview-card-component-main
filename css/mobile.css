@@ -1,0 +1,25 @@
+/*css para despositivo mobile */
+
+@media (max-width:600px) {
+    .conteine{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid;
+        background-color: var(--Card-conteine-Cream);
+    
+    }
+    .card_image{
+        width: 300px;
+        height: 210px;
+        background-image: url(/images/image-product-mobile_red.jpg);
+        border-radius: 10px 10px 0 0 ;
+        
+    }
+    .card_text{
+        border-radius: 0 0 10px 10px;
+    }
+}

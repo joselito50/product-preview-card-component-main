@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +10,7 @@
 }
 
 :root {
+
     --Dark-cyan: hsl(158, 36%, 37%);
     --Card-conteine-Cream: hsl(30, 38%, 92%);
     --Very-dark-blue: hsl(212, 21%, 14%) ;
@@ -20,13 +25,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid;
+    
     background-color: var(--Card-conteine-Cream);
 
 }
 
-.card_image  img{
+.card_image {
+    
+    width: 300px;
+    height: 450px;
     border-radius: 10px 0 0 10px;
+    background-image: url(/images/image-product-desktop-redimesinada.png);
+    background-repeat:no-repeat;
 }
 
 .card_text {
@@ -47,4 +57,38 @@
     background-color: var(--Dark-cyan);
     padding: 8px;
     border-radius: 10px;
+    border: none;
+}
+h1{
+    color: var(--Dark-grayish-blue);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 8px;
+    
+}
+h2{
+    font-family: 'montserrat',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+p{
+    font-family: 'Montserrat',sans-serif;
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 1.1px;
+}
+.price{
+    color: var(--Dark-cyan);
+    font-family: Arial, Helvetica, serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.price samp{
+    position: relative;
+    top: -5px;
+    color: var(--Very-dark-blue);
+    height: 15px;
+    font-size: 15px;
+    margin-left: 20px;
+
 }
